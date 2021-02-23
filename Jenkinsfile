@@ -6,7 +6,7 @@ pipeline {
 		{
 		NEXUS_VERSION = "NEXUS 3"
     		NEXUS_PROTOCOL = "http"
-		NEXUS_URL = "http://ec2-65-1-91-8.ap-south-1.compute.amazonaws.com:8081/"
+		NEXUS_URL = "http://65.1.91.8:8081/"
 		NEXUS_REPOSITORY = "petclinic"
 		NEXUS_CREDENTIAL_ID = "nexus_credentials"
 		} 
